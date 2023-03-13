@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>acme.sh 自动更新证书</title>
+      <link href="/2023/03/14/acme-sh/"/>
+      <url>/2023/03/14/acme-sh/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Acme-sh"><a href="#Acme-sh" class="headerlink" title="Acme.sh"></a>Acme.sh</h1><p><a href="https://github.com/acmesh-official/acme.sh/wiki/%E8%AF%B4%E6%98%8E">官方中文说明 Github</a></p><h2 id="使用手册"><a href="#使用手册" class="headerlink" title="使用手册"></a>使用手册</h2><p>先需要注册账号</p><h3 id="使用-dns-api"><a href="#使用-dns-api" class="headerlink" title="使用 dns api"></a>使用 dns api</h3><p><a href="https://github.com/acmesh-official/acme.sh/wiki/dnsapi">dnsapi · acmesh-official&#x2F;acme.sh Wiki · GitHub</a></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">acme.sh --issue --dns dns_cf -d eg.com</span><br></pre></td></tr></table></figure><h3 id="deploy"><a href="#deploy" class="headerlink" title="deploy"></a>deploy</h3><p><a href="https://github.com/acmesh-official/acme.sh/wiki/deploy-to-docker-containers">deploy to docker containers · acmesh-official&#x2F;acme.sh Wiki · GitHub</a></p><p>这个好像很强，可以部署到 nginx 等服务器也可以部署 docker 甚至是用 ssh 远程部署，还能用 api 部署到 cdn？？？！</p><h3 id="使用-docker-运行"><a href="#使用-docker-运行" class="headerlink" title="使用 docker 运行"></a>使用 docker 运行</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$docker container stats</span><br><span class="line">CONTAINER ID   NAME      CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O   PIDS</span><br><span class="line">b053509eeb44   acme.sh   0.00%     704KiB / 7.441GiB     0.01%     0B / 0B          0B / 0B     3</span><br></pre></td></tr></table></figure><p>长时间运行好像也没什么问题，占用非常低<br>在 Windows 下 想使用 acme.sh 也可以用 docker 使用 <code>-rm</code> 运行完毕自动删除</p><p>&#96;docker run –rm neilpang&#x2F;acme.sh</p><ol><li>当作 可执行文件 使用 </li><li>像 虚拟机 一样长时间运行</li></ol><p><a href="https://github.com/acmesh-official/acme.sh/wiki/Run-acme.sh-in-docker">Run acme.sh in docker · acmesh-official&#x2F;acme.sh Wiki · GitHub</a></p><p><a href="https://www.iszy.cc/posts/docker-acme-sh/">通过 Docker 部署 acme.sh | 随遇而安 (iszy.cc)</a></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>hexo</title>
       <link href="/2023/03/13/hexo/"/>
       <url>/2023/03/13/hexo/</url>
@@ -42,6 +61,25 @@
             <tag> windows </tag>
             
             <tag> package-management </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>苏轼</title>
+      <link href="/2022/06/18/sushi/"/>
+      <url>/2022/06/18/sushi/</url>
+      
+        <content type="html"><![CDATA[<h2 id="王水照眼中的苏轼"><a href="#王水照眼中的苏轼" class="headerlink" title="王水照眼中的苏轼"></a>王水照眼中的苏轼</h2><p>苏轼生活的时代，是一个承平日久、危机四伏的时代，求变图新的<br>呼声与努力不断高涨，又不断被无法更改的制度本身带来的弊端所<br>扼杀。无数仁人志士怀抱着救世的理想，投身到滚滚的时代洪流之<br>中，却无一不在这纷繁错乱的局面中碰得头破血流，难逃注定的悲<br>剧命运。而苏轼是其中最为典型的一个。他从小接受儒家思想的深<br>刻影响，“奋厉有当世志”（苏辙《亡兄子瞻端明墓志铭》），充满<br>了“以天下为己任”的责任感与使命感，胸襟坦荡，正气凛然，不向</p><p>任何权势低头，只对自己的思想与行为负责，随时随地准备为理想<br>付出生命中最高昂的代价。<br>因此，苏轼的一生，几与祸患相始终，承受过几起几落、大起大落<br>的生活波折。他既经顺境，复历逆境。得意时是誉满京师的新科进<br>士，独当一面的封疆大吏，赤绂银章的帝王之师；失意时是柏台肃<br>森的狱中重囚，躬耕东坡的陋邦迁客，啖芋饮水的南荒流人。荣<br>辱、祸福、穷达、得失之间反差的巨大和鲜明，使他咀嚼尽种种人<br>生况味。这种希望和失望、亢奋和凄冷、轩冕荣华和踽踽独处，长<br>时间交替更迭，如环无端，不知所终，促使他去领悟宇宙人生的真<br>相，去探索生活的底蕴。于是，他出入佛、老，以超世的精神来纾<br>解心灵的痛苦，但他并没有从前人“对政治的退避”变而为“对现实的<br>退避”。相反，迫害和打击没有消磨他致君尧舜、匡世济时的政治热<br>情，没有斫伤他批评现实、敢为天下先的勇锐之气；无尽无休的苦<br>难也没有使他厌倦人生，变得冷漠，最后走向虚无。入世的理想和<br>出世的精神，对刚直坚毅的人格力量的追求和对自由不羁的自我价<br>值的珍重，奇妙地统一在他的身上。就这样，他成了那个沉重而悲<br>哀的时代里勇敢和乐观的代表。<br>尤其难能可贵的是，苏轼的超然并不只是用来迎战厄运，对付失<br>意，他对自我的期许并不因环境的改变而放弃。当人所渴慕的黄金<br>大道在眼前展开，当权利与名望的诱人光彩在眼前闪亮，他心境恬<br>淡，视若浮云。多少英雄人物在艰难困苦之中豪气不坠，却在富<br>贵、名利与声色之中迷失自我。苏轼则有足够的勇气和力量蔑视这<br>身外的一切。他有着更高层次的追求，那便是一种无所待于外的自<br>我完成。得失、荣辱、升沉、起伏，皆如云烟，他真正达到了“富贵<br>不能移，贫贱不能淫，威武不能屈”（《孟子》）的最高的人格要求<br>与精神境界。<br>但是，苏轼绝不是一个道貌岸然、可望而不可及的圣贤，而是一个<br>生活在现实之中，有血有肉、有着常人一样喜怒哀乐的普通人。他<br>感情丰富，心地善良，为人真挚诚恳，生性热情好动；他多才多<br>艺，妙语连珠，往往自得其乐，充满了机趣和幽默；他热爱自由，<br>张扬个性，绝对受不了一点点约束；他疾恶如仇，口无遮拦，从来<br>不懂得掩饰自己内心的真实感受……他所有的言行都是心灵自然地<br>流露，他活得光明磊落，无忧无惧，直到生命之旅的终点，他没有<br>遗憾，没有牵挂地离去。<br>千百年来，苏轼的性格魅力倾倒过无数的中国文人，人们不仅欣羡<br>他在事功世界中刚直不屈的风节、民胞物与的灼热同情心，更景仰<br>他心灵世界中洒脱飘逸的气度、睿智的理性风范、笑对人间盛衰的</p><p>超旷。因此，苏轼的意义和价值，并不仅仅在于他文学艺术领域的<br>卓越成就，他的全部作品展现了一个可供人们感知、思索和效仿的<br>活生生的真实人生，影响了无数后继者的人生模式的选择和文化性<br>格的自我设计，从而使他与后世的读者，建立起了一种异乎寻常的<br>亲切动人的关系。<br>在我国古代作家中，能够持久地跟同时和后世人们建立起亲切动人<br>关系者并不多见，苏轼却是其中突出的一位。李白的天马行空、脱<br>略羁绊，固然使人倾倒，但不免太高太远，难以企及；杜甫忠悃诚<br>笃，感时伤世，人们不能无动于衷，但学起来又太苦太累，而苏轼<br>则是现世性与超越性水乳交融在一起的一位智者。他总是拥有一代<br>又一代的众多读者，永远令人怀想，永远给人启迪。</p><p><em>from 苏轼传 王水照</em></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 文学 </tag>
             
         </tags>
       
